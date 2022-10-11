@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: aqua;
+}
+body h1 {
+  margin-bottom: 10px;
+  font-size: 3vw;
+}
+body .para {
+  color: blue;
+  margin-bottom: 4px;
+  font-size: 1.2rem;
+}
+.wrapper {
+  width: 420px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.wrapper .chanceleft {
+  text-align: center;
+  font-size: 1.9rem;
+  margin-bottom: 8px;
+}
+.wrapper .chanceleft p span {
+  color: red;
+}
+.wrapper .actualval {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin: 5px 0px;
+  color: rgb(14, 34, 219);
+}
+.wrapper .input form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  /* gap: 10px; */
+}
+.wrapper .input #txt {
+  width: 65%;
+  text-align: center;
+  padding: 0.7rem;
+  font-size: 20px;
+}
+.wrapper .input .submit {
+  width: 20%;
+  text-align: center;
+  padding: 0.7rem;
+  width: 20%;
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  border-radius: 6%;
+}
+.wrapper .input .submit:hover {
+  animation: pulse 0.3s 2s 0.3s infinite; //looking for this
+}
+.wrapper .answer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  color: red;
+  display: none;
+  margin-top: 10px;
+}
+.wrapper .answer p {
+  text-align: center;
+}
+.wrapper .extrapara {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 30px;
+  color: red;
+}
