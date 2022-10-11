@@ -11,14 +11,14 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: aqua;
+  background-color:#80FF33;
 }
 body h1 {
   margin-bottom: 10px;
   font-size: 3vw;
 }
 body .para {
-  color: blue;
+  color: brown;
   margin-bottom: 4px;
   font-size: 1.2rem;
 }
@@ -33,7 +33,7 @@ body .para {
   margin-bottom: 8px;
 }
 .wrapper .chanceleft p span {
-  color: red;
+  color: blue;
 }
 .wrapper .actualval {
   display: flex;
@@ -52,7 +52,7 @@ body .para {
 }
 .wrapper .input #txt {
   width: 65%;
-  text-align: center;
+  text-: center;
   padding: 0.7rem;
   font-size: 20px;
 }
@@ -74,7 +74,7 @@ body .para {
   justify-content: center;
   align-items: center;
   font-size: 2.5rem;
-  color: red;
+  color:#9C7FB8;
   display: none;
   margin-top: 10px;
 }
