@@ -1,0 +1,64 @@
+Software Evolution Laws
+Lehman has given laws for software evolution. He divided the software into three different categories:
+
+S-type (static-type) - This is a software, which works strictly according to defined specifications and solutions. The solution and the method to achieve it, both are immediately understood before coding. The s-type software is least subjected to changes hence this is the simplest of all. For example, calculator program for mathematical computation.
+P-type (practical-type) - This is a software with a collection of procedures. This is defined by exactly what procedures can do. In this software, the specifications can be described but the solution is not obvious instantly. For example, gaming software.
+E-type (embedded-type) - This software works closely as the requirement of real-world environment. This software has a high degree of evolution as there are various changes in laws, taxes etc. in the real world situations. For example, Online trading software.
+
+Components of software engineering
+
+Components of Software : 
+There are three components of the software: These are : Program, Documentation, and Operating Procedures.
+
+Program –
+A computer program is a list of instructions that tell a computer what to do. 
+ 
+Documentation – 
+Source information about the product contained in design documents, detailed code comments, etc. 
+ 
+Operating Procedures –
+Set of step-by-step instructions compiled by an organization to help workers carry out complex routine operations. 
+
+
+
+These characteristics are described below:
+
+Functionality: 
+It refers to the degree of performance of the software against its intended purpose. 
+
+
+Reliability: 
+A set of attributes that bears on the capability of software to maintain its level of performance under the given condition for a stated period of time. 
+
+Efficiency: 
+It refers to the ability of the software to use system resources in the most effective and efficient manner. The software should make effective use of storage space and executive command as per desired timing requirements. 
+
+
+Usability: 
+It refers to the extent to which the software can be used with ease. the amount of effort or time required to learn how to use the software.
+ 
+
+Maintainability: 
+It refers to the ease with which the modifications can be made in a software system to extend its functionality, improve its performance, or correct errors. 
+
+
+Portability: 
+A set of attributes that bears on the ability of software to be transferred from one environment to another, without or minimum changes. 
+
+Software Crisis
+Software Crisis is a term used in computer science for the difficulty of writing useful and efficient computer programs in the required time. The software crisis was due to using the same workforce, same methods, same tools even though rapidly increasing in software demand, the complexity of software, and software challenges. With the increase in the complexity of software, many software problems arise because existing methods were insufficient. If we will use the same workforce, same methods, and same tools after the fast increase in software demand, software complexity, and software challenges, then there arise some problems like software budget problems, software efficiency problems, software quality problems, software managing and delivering problem, etc. This condition is called a software crisis
+
+
+Difference between Software Engineering process and Conventional Engineering Process
+
+https://www.google.com/amp/s/www.geeksforgeeks.org/difference-between-software-engineering-process-and-conventional-engineering-processs/amp/
+
+
+Feasibility
+Feasibility Study in Software Engineering is a study to evaluate feasibility of proposed project or system. Feasibility study is one of stage among important four stages of Software Project Management Process. As name suggests feasibility study is the feasibility analysis or it is a measure of the software product in terms of how much beneficial product development will be for the organization in a practical point of view. Feasibility study is carried out based on many purposes to analyze whether software product will be right in terms of development, implantation, contribution of project to the organization etc.
+
+
+Waterfall model - https://www.tutorialspoint.com/sdlc/sdlc_waterfall_model.htm
+iterative model - https://www.tutorialspoint.com/sdlc/sdlc_iterative_model.htm
+
+
