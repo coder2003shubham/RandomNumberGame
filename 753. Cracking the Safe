@@ -1,0 +1,21 @@
+class Solution:
+    def crackSafe(self, n: int, k: int) -> str:
+        self.ans=None
+        self.visited=set()
+        def backtrack(curr):
+            # print(curr,self.visited)
+            if len(self.visited)==k**n:
+                self.ans=curr
+                return True
+            
+            for i in range(k):
+                new_curr=str(i)+curr
+                if new_curr[:n] not in self.visited:
+                    self.visited.add(new_curr[:n])
+                    if backtrack(new_curr):
+                        return True
+                    self.visited.remove(new_curr[:n])
+            return False
+        backtrack('0'*(n-1))
+        return self.ans
+    
